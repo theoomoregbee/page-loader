@@ -12,7 +12,7 @@ import {SlimLoadingBarModule} from 'ng2-slim-loading-bar';
   imports: [
     BrowserModule,
     HttpClientModule,
-    SlimLoadingBarModule
+    SlimLoadingBarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
