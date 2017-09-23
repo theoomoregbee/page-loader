@@ -3,6 +3,7 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {HttpClientModule} from '@angular/common/http';
+import {SlimLoadingBarModule} from 'ng2-slim-loading-bar';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import {HttpClientModule} from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    SlimLoadingBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
