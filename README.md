@@ -1,6 +1,8 @@
 # YoutubeLikeLoader
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3 to demonstrate how to show youtube like loader when switching between routes
+
+![](screenshots/navigation-loader.gif)
 
 ## Development server
 
