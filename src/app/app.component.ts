@@ -40,12 +40,12 @@ export class AppComponent {
   }
 
   /**
-   * we are using http://slowwly.robertomurray.co.uk/ to automate delay(4000ms) with our main json test server
+   * we are using http://slowwly.robertomurray.co.uk/ to automate delay(2000ms) with our main json test server
    * https://jsonplaceholder.typicode.com/posts/1
    *
    */
   activate() {
-    this._http.get('http://slowwly.robertomurray.co.uk/delay/4000/url/https://jsonplaceholder.typicode.com/posts/1\n' +
+    this._http.get('http://slowwly.robertomurray.co.uk/delay/2000/url/https://jsonplaceholder.typicode.com/posts/1\n' +
       '\n')
       .subscribe(
         data => {
@@ -60,7 +60,7 @@ export class AppComponent {
    * here the endpoint is not existing
    */
   activateWtihError() {
-    this._http.get('http://slowwly.robertomurray.co.uk/delay/4000/url/https://not-existing.com/p\n' +
+    this._http.get('http://slowwly.robertomurray.co.uk/delay/2000/url/https://not-existing.com/p\n' +
       '\n')
       .subscribe(
         data => console.log(data),
