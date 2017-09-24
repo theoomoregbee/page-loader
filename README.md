@@ -6,6 +6,7 @@ read more
  * [Here](https://medium.com/@theophilus.omoregbee827/youtube-page-loader-with-angular-4-new-httpclient-interceptor-bc716291329b) for Just Http Requests
 
 ![](screenshots/navigation-loader.gif)
+![](screenshots/http-loader.gif)
 
 ## Development server
 
